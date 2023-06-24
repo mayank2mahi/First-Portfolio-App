@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EduActivity" >
+
+    <TextView
+        android:id="@+id/eduHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="25dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="EDUCATION" />
+
+    <TextView
+        android:id="@+id/collName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:text="--> Computer Science &amp; Engineering - IEM Kolkata" />
+
+    <TextView
+        android:id="@+id/collDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:text="(2021-2025)" />
+
+    <TextView
+        android:id="@+id/interName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:text="--> PCM + Economics - Don Bosco Academy Patna" />
+
+    <TextView
+        android:id="@+id/interDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:text="(2018-2020)" />
+
+    <TextView
+        android:id="@+id/secName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:text="--> Secondary - St. Karen's Secondary School Patna" />
+
+    <TextView
+        android:id="@+id/secDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:text="(Till 2018)" />
+
+</LinearLayout>
